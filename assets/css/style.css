@@ -1,0 +1,66 @@
+body{
+    background-image: url("../images/bgimage.jpg");
+    font-family: 'MedievalSharp', cursive;
+}
+
+.top-header{
+
+    margin-bottom: 43px;
+}
+
+h1{
+    color: red;
+    text-align: center;
+    font-size: 2em;
+}
+
+
+
+.container {
+
+    background-color: black;
+    opacity: .9;
+    height: 450px;
+    display: flex;
+    color: red;
+}
+
+section{
+
+    width: 80%;
+    margin: 0 auto;
+    
+
+}
+
+
+.left-box{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    order: 1;
+    border-right: 2px dashed red;
+    font-size: 1.3em;
+    justify-content: top;
+    text-align: center;
+    
+
+}
+
+.right-box{
+    order: 2;
+    overflow-wrap: break-word;
+    width: 30%;
+    padding-left: 10px;
+    font-size: 1.5em;
+
+}
+
+#begingame{
+    color: red;
+    margin-top: 10px;
+}
+
+#enteredword{
+    color: red;
+}
