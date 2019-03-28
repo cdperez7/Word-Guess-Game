@@ -24,28 +24,31 @@
     <section>
         <div class="container">
             <div class="left-box">
-                <h2>Press any letter key to guess the character</h2>
-                <p>_ _ _ _ _ _</p>
-
-
-
-
-
+                <h2>Press any letter to guess the character</h2>
+                <p id="computerWord">_ _ _ _ _ _</p>
+                <div class="starkimage">
+                    <img src ="assets/images/stark.jpg" alt = "stark sigil">
+                </div>
             </div>
+            
 
             <div class="right-box">
-                <h4>Guesses remaining</h4>
+                <h4><span id="numGuesses"></span> Guesses remaining</h4>
+
+                <div class ="letters">
                 <h4>Guessed Letters</h4>
-                <p id="guessedLetters"></p>
+                <p id="wrongGuesses"></p>
+                </div>
 
                 <div class="wins">
                     <h4>Wins</h4>
-                    <p id="numberWins"></p>
+                    <p id="winScore"></p>
                 </div>
                 <div class="losses">
                     <h4>Losses</h4>
-                    <p id="numberLosses"></p>
+                    <p id="lossScore"></p>
                 </div>
+                
 
             </div>
         </div>

@@ -14,13 +14,17 @@ h1{
     font-size: 2em;
 }
 
+h2 {
+    font-size: 2em;
+}
+
 
 
 .container {
 
     background-color: black;
     opacity: .9;
-    height: 450px;
+    height: 550px;
     display: flex;
     color: red;
 }
@@ -56,11 +60,12 @@ section{
 
 }
 
-#begingame{
-    color: red;
-    margin-top: 10px;
+.left-box p {
+    font-size: 3em;
 }
 
-#enteredword{
-    color: red;
+.left-box img{
+    justify-content: space-around;
+    width: 300px;
+    height: auto;
 }
